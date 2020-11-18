@@ -1,0 +1,65 @@
+NET "resetn" LOC = "P57";
+NET "clk" LOC = "P180";
+
+NET "Rx" LOC = "P169";
+NET "Tx" LOC = "P171";
+
+NET "fnd_arr_com[3]" LOC = "P18";
+NET "fnd_arr_com[2]" LOC = "P19";
+NET "fnd_arr_com[1]" LOC = "P20";
+NET "fnd_arr_com[0]" LOC = "P21";
+
+
+NET "fnd_arr_data[7]" LOC = "P22";
+NET "fnd_arr_data[6]" LOC = "P24";
+NET "fnd_arr_data[5]" LOC = "P26";
+NET "fnd_arr_data[4]" LOC = "P27";
+NET "fnd_arr_data[3]" LOC = "P28";
+NET "fnd_arr_data[2]" LOC = "P29";
+NET "fnd_arr_data[1]" LOC = "P31";
+NET "fnd_arr_data[0]" LOC = "P33";
+
+NET "fnd[6]" LOC = "P176";
+NET "fnd[5]" LOC = "P178";
+NET "fnd[4]" LOC = "P181";
+NET "fnd[3]" LOC = "P182";
+NET "fnd[2]" LOC = "P184";
+NET "fnd[1]" LOC = "P185";
+NET "fnd[0]" LOC = "P187";
+
+NET "StateLED[0]" LOC="P16";
+NET "StateLED[1]" LOC="P13";
+NET "StateLED[2]" LOC="P205";
+NET "StateLED[3]" LOC="P203";
+NET "StateLED[4]" LOC="P199";
+NET "StateLED[5]" LOC="P197";
+NET "StateLED[6]" LOC="P194";
+NET "StateLED[7]" LOC="P190";
+
+NET "StateLED[8]" LOC="P15";
+NET "StateLED[9]" LOC="P12";
+NET "StateLED[10]" LOC="P10";
+NET "StateLED[11]" LOC="P204";
+NET "StateLED[12]" LOC="P200";
+NET "StateLED[13]" LOC="P198";
+NET "StateLED[14]" LOC="P196";
+NET "StateLED[15]" LOC="P191";
+
+NET "parit" LOC="P51";
+
+NET "button[15]" LOC="P63";
+NET "button[14]" LOC="P67";
+NET "button[13]" LOC="P65";
+NET "button[12]" LOC="P71";
+NET "button[11]" LOC="P68";
+NET "button[10]" LOC="P74";
+NET "button[9]" LOC="P50";
+NET "button[8]" LOC="P58";
+NET "button[7]" LOC="P52";
+NET "button[6]" LOC="P62";
+NET "button[5]" LOC="P61";
+NET "button[4]" LOC="P64";
+NET "button[3]" LOC="P44";
+NET "button[2]" LOC="P48";
+NET "button[1]" LOC="P46";
+NET "button[0]" LOC="P45";

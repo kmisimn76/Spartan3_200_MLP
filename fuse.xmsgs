@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/xilinx_project/Deep_Learning/NPU/controller.v" Line 52: Parameter declaration becomes local in <arg fmt="%s" index="1">Controller</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/xilinx_project/Deep_Learning/NPU/controller.v" Line 61: Parameter declaration becomes local in <arg fmt="%s" index="1">Controller</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/xilinx_project/Deep_Learning/NPU/allocator.v" Line 64: Parameter declaration becomes local in <arg fmt="%s" index="1">Allocator</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"C:/xilinx_project/Deep_Learning/NPU/allocator.v" Line 65: Parameter declaration becomes local in <arg fmt="%s" index="1">Allocator</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="267" delta="unknown" >"C:/xilinx_project/Deep_Learning/NPU/NPU_tb_look.v" Line 79: Cannot find port <arg fmt="%s" index="1">multA</arg> on this module
+</msg>
+
+<msg type="error" file="HDLCompiler" num="25" delta="unknown" >"C:/xilinx_project/Deep_Learning/NPU/NPU_tb_look.v" Line 83: Module &lt;<arg fmt="%s" index="1">NPU</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">valid</arg>&gt;.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="25" delta="unknown" >"C:/xilinx_project/Deep_Learning/NPU/NPU_tb_look.v" Line 84: Module &lt;<arg fmt="%s" index="1">NPU</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">RxData</arg>&gt;.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="25" delta="unknown" >"C:/xilinx_project/Deep_Learning/NPU/NPU_tb_look.v" Line 90: Module &lt;<arg fmt="%s" index="1">NPU</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">mm_ena</arg>&gt;.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="25" delta="unknown" >"C:/xilinx_project/Deep_Learning/NPU/NPU_tb_look.v" Line 91: Module &lt;<arg fmt="%s" index="1">NPU</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">mm_enb</arg>&gt;.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="25" delta="unknown" >"C:/xilinx_project/Deep_Learning/NPU/NPU_tb_look.v" Line 92: Module &lt;<arg fmt="%s" index="1">NPU</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">mm_wea</arg>&gt;.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="25" delta="unknown" >"C:/xilinx_project/Deep_Learning/NPU/NPU_tb_look.v" Line 93: Module &lt;<arg fmt="%s" index="1">NPU</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">mm_addra</arg>&gt;.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="25" delta="unknown" >"C:/xilinx_project/Deep_Learning/NPU/NPU_tb_look.v" Line 94: Module &lt;<arg fmt="%s" index="1">NPU</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">mm_addrb</arg>&gt;.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="25" delta="unknown" >"C:/xilinx_project/Deep_Learning/NPU/NPU_tb_look.v" Line 95: Module &lt;<arg fmt="%s" index="1">NPU</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">mm_dla</arg>&gt;.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="25" delta="unknown" >"C:/xilinx_project/Deep_Learning/NPU/NPU_tb_look.v" Line 96: Module &lt;<arg fmt="%s" index="1">NPU</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">mm_doa</arg>&gt;.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="25" delta="unknown" >"C:/xilinx_project/Deep_Learning/NPU/NPU_tb_look.v" Line 97: Module &lt;<arg fmt="%s" index="1">NPU</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">mm_dob</arg>&gt;.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="25" delta="unknown" >"C:/xilinx_project/Deep_Learning/NPU/NPU_tb_look.v" Line 98: Module &lt;<arg fmt="%s" index="1">NPU</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">wm_read</arg>&gt;.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="25" delta="unknown" >"C:/xilinx_project/Deep_Learning/NPU/NPU_tb_look.v" Line 99: Module &lt;<arg fmt="%s" index="1">NPU</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">wm_line</arg>&gt;.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="25" delta="unknown" >"C:/xilinx_project/Deep_Learning/NPU/NPU_tb_look.v" Line 100: Module &lt;<arg fmt="%s" index="1">NPU</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">wm_addra_0</arg>&gt;.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="25" delta="unknown" >"C:/xilinx_project/Deep_Learning/NPU/NPU_tb_look.v" Line 101: Module &lt;<arg fmt="%s" index="1">NPU</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">wm_ena_o</arg>&gt;.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="25" delta="unknown" >"C:/xilinx_project/Deep_Learning/NPU/NPU_tb_look.v" Line 102: Module &lt;<arg fmt="%s" index="1">NPU</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">wm_wea_o</arg>&gt;.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="25" delta="unknown" >"C:/xilinx_project/Deep_Learning/NPU/NPU_tb_look.v" Line 103: Module &lt;<arg fmt="%s" index="1">NPU</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">wm_out_0</arg>&gt;.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="25" delta="unknown" >"C:/xilinx_project/Deep_Learning/NPU/NPU_tb_look.v" Line 104: Module &lt;<arg fmt="%s" index="1">NPU</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">wm_out_1</arg>&gt;.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="25" delta="unknown" >"C:/xilinx_project/Deep_Learning/NPU/NPU_tb_look.v" Line 105: Module &lt;<arg fmt="%s" index="1">NPU</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">multB_0</arg>&gt;.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="25" delta="unknown" >"C:/xilinx_project/Deep_Learning/NPU/NPU_tb_look.v" Line 106: Module &lt;<arg fmt="%s" index="1">NPU</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">multB_1</arg>&gt;.
+</msg>
+
+<msg type="error" file="Simulator" num="778" delta="unknown" >Static elaboration of top level Verilog design unit(s) in library <arg fmt="%s" index="1">work</arg> failed
+</msg>
+
+</messages>
+
