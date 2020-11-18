@@ -1,0 +1,452 @@
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s200-pq208-4 NPU.ngc NPU.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o NPU_map.ncd NPU.ngd NPU.pcf 
+par -w -intstyle ise -ol high -t 1 NPU_map.ncd NPU.ncd NPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml NPU.twx NPU.ncd -o NPU.twr NPU.pcf 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s200-pq208-4 NPU.ngc NPU.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o NPU_map.ncd NPU.ngd NPU.pcf 
+par -w -intstyle ise -ol high -t 1 NPU_map.ncd NPU.ncd NPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml NPU.twx NPU.ncd -o NPU.twr NPU.pcf 
+bitgen -intstyle ise -f NPU.ut NPU.ncd 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc const.ucf -p xc3s200-pq208-4 NPU.ngc NPU.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o NPU_map.ncd NPU.ngd NPU.pcf 
+par -w -intstyle ise -ol high -t 1 NPU_map.ncd NPU.ncd NPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml NPU.twx NPU.ncd -o NPU.twr NPU.pcf -ucf const.ucf 
+bitgen -intstyle ise -f NPU.ut NPU.ncd 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc const.ucf -p xc3s200-pq208-4 NPU.ngc NPU.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o NPU_map.ncd NPU.ngd NPU.pcf 
+par -w -intstyle ise -ol high -t 1 NPU_map.ncd NPU.ncd NPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml NPU.twx NPU.ncd -o NPU.twr NPU.pcf -ucf const.ucf 
+bitgen -intstyle ise -f NPU.ut NPU.ncd 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc const.ucf -p xc3s200-pq208-4 NPU.ngc NPU.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o NPU_map.ncd NPU.ngd NPU.pcf 
+par -w -intstyle ise -ol high -t 1 NPU_map.ncd NPU.ncd NPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml NPU.twx NPU.ncd -o NPU.twr NPU.pcf -ucf const.ucf 
+bitgen -intstyle ise -f NPU.ut NPU.ncd 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc const.ucf -p xc3s200-pq208-4 NPU.ngc NPU.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o NPU_map.ncd NPU.ngd NPU.pcf 
+par -w -intstyle ise -ol high -t 1 NPU_map.ncd NPU.ncd NPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml NPU.twx NPU.ncd -o NPU.twr NPU.pcf -ucf const.ucf 
+bitgen -intstyle ise -f NPU.ut NPU.ncd 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc const.ucf -p xc3s200-pq208-4 NPU.ngc NPU.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o NPU_map.ncd NPU.ngd NPU.pcf 
+par -w -intstyle ise -ol high -t 1 NPU_map.ncd NPU.ncd NPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml NPU.twx NPU.ncd -o NPU.twr NPU.pcf -ucf const.ucf 
+bitgen -intstyle ise -f NPU.ut NPU.ncd 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc const.ucf -p xc3s200-pq208-4 NPU.ngc NPU.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o NPU_map.ncd NPU.ngd NPU.pcf 
+par -w -intstyle ise -ol high -t 1 NPU_map.ncd NPU.ncd NPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml NPU.twx NPU.ncd -o NPU.twr NPU.pcf -ucf const.ucf 
+bitgen -intstyle ise -f NPU.ut NPU.ncd 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc const.ucf -p xc3s200-pq208-4 NPU.ngc NPU.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o NPU_map.ncd NPU.ngd NPU.pcf 
+par -w -intstyle ise -ol high -t 1 NPU_map.ncd NPU.ncd NPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml NPU.twx NPU.ncd -o NPU.twr NPU.pcf -ucf const.ucf 
+bitgen -intstyle ise -f NPU.ut NPU.ncd 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc const.ucf -p xc3s200-pq208-4 NPU.ngc NPU.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o NPU_map.ncd NPU.ngd NPU.pcf 
+par -w -intstyle ise -ol high -t 1 NPU_map.ncd NPU.ncd NPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml NPU.twx NPU.ncd -o NPU.twr NPU.pcf -ucf const.ucf 
+bitgen -intstyle ise -f NPU.ut NPU.ncd 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc const.ucf -p xc3s200-pq208-4 NPU.ngc NPU.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o NPU_map.ncd NPU.ngd NPU.pcf 
+par -w -intstyle ise -ol high -t 1 NPU_map.ncd NPU.ncd NPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml NPU.twx NPU.ncd -o NPU.twr NPU.pcf -ucf const.ucf 
+bitgen -intstyle ise -f NPU.ut NPU.ncd 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc const.ucf -p xc3s200-pq208-4 NPU.ngc NPU.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o NPU_map.ncd NPU.ngd NPU.pcf 
+par -w -intstyle ise -ol high -t 1 NPU_map.ncd NPU.ncd NPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml NPU.twx NPU.ncd -o NPU.twr NPU.pcf -ucf const.ucf 
+bitgen -intstyle ise -f NPU.ut NPU.ncd 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc const.ucf -p xc3s200-pq208-4 NPU.ngc NPU.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o NPU_map.ncd NPU.ngd NPU.pcf 
+par -w -intstyle ise -ol high -t 1 NPU_map.ncd NPU.ncd NPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml NPU.twx NPU.ncd -o NPU.twr NPU.pcf -ucf const.ucf 
+bitgen -intstyle ise -f NPU.ut NPU.ncd 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc const.ucf -p xc3s200-pq208-4 NPU.ngc NPU.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o NPU_map.ncd NPU.ngd NPU.pcf 
+par -w -intstyle ise -ol high -t 1 NPU_map.ncd NPU.ncd NPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml NPU.twx NPU.ncd -o NPU.twr NPU.pcf -ucf const.ucf 
+bitgen -intstyle ise -f NPU.ut NPU.ncd 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc const.ucf -p xc3s200-pq208-4 NPU.ngc NPU.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o NPU_map.ncd NPU.ngd NPU.pcf 
+par -w -intstyle ise -ol high -t 1 NPU_map.ncd NPU.ncd NPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml NPU.twx NPU.ncd -o NPU.twr NPU.pcf -ucf const.ucf 
+bitgen -intstyle ise -f NPU.ut NPU.ncd 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc const.ucf -p xc3s200-pq208-4 NPU.ngc NPU.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o NPU_map.ncd NPU.ngd NPU.pcf 
+par -w -intstyle ise -ol high -t 1 NPU_map.ncd NPU.ncd NPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml NPU.twx NPU.ncd -o NPU.twr NPU.pcf -ucf const.ucf 
+bitgen -intstyle ise -f NPU.ut NPU.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc const.ucf -p xc3s200-pq208-4 NPU.ngc NPU.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o NPU_map.ncd NPU.ngd NPU.pcf 
+par -w -intstyle ise -ol high -t 1 NPU_map.ncd NPU.ncd NPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml NPU.twx NPU.ncd -o NPU.twr NPU.pcf -ucf const.ucf 
+bitgen -intstyle ise -f NPU.ut NPU.ncd 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc const.ucf -p xc3s200-pq208-4 NPU.ngc NPU.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o NPU_map.ncd NPU.ngd NPU.pcf 
+par -w -intstyle ise -ol high -t 1 NPU_map.ncd NPU.ncd NPU.pcf 
+bitgen -intstyle ise -f NPU.ut NPU.ncd 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc const.ucf -p xc3s200-pq208-4 NPU.ngc NPU.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o NPU_map.ncd NPU.ngd NPU.pcf 
+par -w -intstyle ise -ol high -t 1 NPU_map.ncd NPU.ncd NPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml NPU.twx NPU.ncd -o NPU.twr NPU.pcf -ucf const.ucf 
+bitgen -intstyle ise -f NPU.ut NPU.ncd 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc const.ucf -p xc3s200-pq208-4 NPU.ngc NPU.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o NPU_map.ncd NPU.ngd NPU.pcf 
+par -w -intstyle ise -ol high -t 1 NPU_map.ncd NPU.ncd NPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml NPU.twx NPU.ncd -o NPU.twr NPU.pcf -ucf const.ucf 
+bitgen -intstyle ise -f NPU.ut NPU.ncd 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc const.ucf -p xc3s200-pq208-4 NPU.ngc NPU.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o NPU_map.ncd NPU.ngd NPU.pcf 
+par -w -intstyle ise -ol high -t 1 NPU_map.ncd NPU.ncd NPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml NPU.twx NPU.ncd -o NPU.twr NPU.pcf -ucf const.ucf 
+bitgen -intstyle ise -f NPU.ut NPU.ncd 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc const.ucf -p xc3s200-pq208-4 NPU.ngc NPU.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o NPU_map.ncd NPU.ngd NPU.pcf 
+par -w -intstyle ise -ol high -t 1 NPU_map.ncd NPU.ncd NPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml NPU.twx NPU.ncd -o NPU.twr NPU.pcf -ucf const.ucf 
+bitgen -intstyle ise -f NPU.ut NPU.ncd 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc const.ucf -p xc3s200-pq208-4 NPU.ngc NPU.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o NPU_map.ncd NPU.ngd NPU.pcf 
+par -w -intstyle ise -ol high -t 1 NPU_map.ncd NPU.ncd NPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml NPU.twx NPU.ncd -o NPU.twr NPU.pcf -ucf const.ucf 
+bitgen -intstyle ise -f NPU.ut NPU.ncd 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc const.ucf -p xc3s200-pq208-4 NPU.ngc NPU.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o NPU_map.ncd NPU.ngd NPU.pcf 
+par -w -intstyle ise -ol high -t 1 NPU_map.ncd NPU.ncd NPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml NPU.twx NPU.ncd -o NPU.twr NPU.pcf -ucf const.ucf 
+bitgen -intstyle ise -f NPU.ut NPU.ncd 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc const.ucf -p xc3s200-pq208-4 NPU.ngc NPU.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o NPU_map.ncd NPU.ngd NPU.pcf 
+par -w -intstyle ise -ol high -t 1 NPU_map.ncd NPU.ncd NPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml NPU.twx NPU.ncd -o NPU.twr NPU.pcf -ucf const.ucf 
+bitgen -intstyle ise -f NPU.ut NPU.ncd 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc const.ucf -p xc3s200-pq208-4 NPU.ngc NPU.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o NPU_map.ncd NPU.ngd NPU.pcf 
+par -w -intstyle ise -ol high -t 1 NPU_map.ncd NPU.ncd NPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml NPU.twx NPU.ncd -o NPU.twr NPU.pcf -ucf const.ucf 
+bitgen -intstyle ise -f NPU.ut NPU.ncd 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc const.ucf -p xc3s200-pq208-4 NPU.ngc NPU.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o NPU_map.ncd NPU.ngd NPU.pcf 
+par -w -intstyle ise -ol high -t 1 NPU_map.ncd NPU.ncd NPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml NPU.twx NPU.ncd -o NPU.twr NPU.pcf -ucf const.ucf 
+bitgen -intstyle ise -f NPU.ut NPU.ncd 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc const.ucf -p xc3s200-pq208-4 NPU.ngc NPU.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o NPU_map.ncd NPU.ngd NPU.pcf 
+par -w -intstyle ise -ol high -t 1 NPU_map.ncd NPU.ncd NPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml NPU.twx NPU.ncd -o NPU.twr NPU.pcf -ucf const.ucf 
+bitgen -intstyle ise -f NPU.ut NPU.ncd 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc const.ucf -p xc3s200-pq208-4 NPU.ngc NPU.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o NPU_map.ncd NPU.ngd NPU.pcf 
+par -w -intstyle ise -ol high -t 1 NPU_map.ncd NPU.ncd NPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml NPU.twx NPU.ncd -o NPU.twr NPU.pcf -ucf const.ucf 
+bitgen -intstyle ise -f NPU.ut NPU.ncd 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc const.ucf -p xc3s200-pq208-4 NPU.ngc NPU.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o NPU_map.ncd NPU.ngd NPU.pcf 
+par -w -intstyle ise -ol high -t 1 NPU_map.ncd NPU.ncd NPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml NPU.twx NPU.ncd -o NPU.twr NPU.pcf -ucf const.ucf 
+bitgen -intstyle ise -f NPU.ut NPU.ncd 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc const.ucf -p xc3s200-pq208-4 NPU.ngc NPU.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o NPU_map.ncd NPU.ngd NPU.pcf 
+par -w -intstyle ise -ol high -t 1 NPU_map.ncd NPU.ncd NPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml NPU.twx NPU.ncd -o NPU.twr NPU.pcf -ucf const.ucf 
+bitgen -intstyle ise -f NPU.ut NPU.ncd 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc const.ucf -p xc3s200-pq208-4 NPU.ngc NPU.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o NPU_map.ncd NPU.ngd NPU.pcf 
+par -w -intstyle ise -ol high -t 1 NPU_map.ncd NPU.ncd NPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml NPU.twx NPU.ncd -o NPU.twr NPU.pcf -ucf const.ucf 
+bitgen -intstyle ise -f NPU.ut NPU.ncd 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc const.ucf -p xc3s200-pq208-4 NPU.ngc NPU.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o NPU_map.ncd NPU.ngd NPU.pcf 
+par -w -intstyle ise -ol high -t 1 NPU_map.ncd NPU.ncd NPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml NPU.twx NPU.ncd -o NPU.twr NPU.pcf -ucf const.ucf 
+bitgen -intstyle ise -f NPU.ut NPU.ncd 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc const.ucf -p xc3s200-pq208-4 NPU.ngc NPU.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o NPU_map.ncd NPU.ngd NPU.pcf 
+par -w -intstyle ise -ol high -t 1 NPU_map.ncd NPU.ncd NPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml NPU.twx NPU.ncd -o NPU.twr NPU.pcf -ucf const.ucf 
+bitgen -intstyle ise -f NPU.ut NPU.ncd 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc const.ucf -p xc3s200-pq208-4 NPU.ngc NPU.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o NPU_map.ncd NPU.ngd NPU.pcf 
+par -w -intstyle ise -ol high -t 1 NPU_map.ncd NPU.ncd NPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml NPU.twx NPU.ncd -o NPU.twr NPU.pcf -ucf const.ucf 
+bitgen -intstyle ise -f NPU.ut NPU.ncd 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc const.ucf -p xc3s200-pq208-4 NPU.ngc NPU.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o NPU_map.ncd NPU.ngd NPU.pcf 
+par -w -intstyle ise -ol high -t 1 NPU_map.ncd NPU.ncd NPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml NPU.twx NPU.ncd -o NPU.twr NPU.pcf -ucf const.ucf 
+bitgen -intstyle ise -f NPU.ut NPU.ncd 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc const.ucf -p xc3s200-pq208-4 NPU.ngc NPU.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o NPU_map.ncd NPU.ngd NPU.pcf 
+par -w -intstyle ise -ol high -t 1 NPU_map.ncd NPU.ncd NPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml NPU.twx NPU.ncd -o NPU.twr NPU.pcf -ucf const.ucf 
+bitgen -intstyle ise -f NPU.ut NPU.ncd 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc const.ucf -p xc3s200-pq208-4 NPU.ngc NPU.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o NPU_map.ncd NPU.ngd NPU.pcf 
+par -w -intstyle ise -ol high -t 1 NPU_map.ncd NPU.ncd NPU.pcf 
+bitgen -intstyle ise -f NPU.ut NPU.ncd 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc const.ucf -p xc3s200-pq208-4 NPU.ngc NPU.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o NPU_map.ncd NPU.ngd NPU.pcf 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc const.ucf -p xc3s200-pq208-4 NPU.ngc NPU.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o NPU_map.ncd NPU.ngd NPU.pcf 
+par -w -intstyle ise -ol high -t 1 NPU_map.ncd NPU.ncd NPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml NPU.twx NPU.ncd -o NPU.twr NPU.pcf -ucf const.ucf 
+bitgen -intstyle ise -f NPU.ut NPU.ncd 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc const.ucf -p xc3s200-pq208-4 NPU.ngc NPU.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o NPU_map.ncd NPU.ngd NPU.pcf 
+par -w -intstyle ise -ol high -t 1 NPU_map.ncd NPU.ncd NPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml NPU.twx NPU.ncd -o NPU.twr NPU.pcf -ucf const.ucf 
+bitgen -intstyle ise -f NPU.ut NPU.ncd 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc const.ucf -p xc3s200-pq208-4 NPU.ngc NPU.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o NPU_map.ncd NPU.ngd NPU.pcf 
+par -w -intstyle ise -ol high -t 1 NPU_map.ncd NPU.ncd NPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml NPU.twx NPU.ncd -o NPU.twr NPU.pcf -ucf const.ucf 
+bitgen -intstyle ise -f NPU.ut NPU.ncd 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc const.ucf -p xc3s200-pq208-4 NPU.ngc NPU.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o NPU_map.ncd NPU.ngd NPU.pcf 
+par -w -intstyle ise -ol high -t 1 NPU_map.ncd NPU.ncd NPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml NPU.twx NPU.ncd -o NPU.twr NPU.pcf -ucf const.ucf 
+bitgen -intstyle ise -f NPU.ut NPU.ncd 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc const.ucf -p xc3s200-pq208-4 NPU.ngc NPU.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o NPU_map.ncd NPU.ngd NPU.pcf 
+par -w -intstyle ise -ol high -t 1 NPU_map.ncd NPU.ncd NPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml NPU.twx NPU.ncd -o NPU.twr NPU.pcf -ucf const.ucf 
+bitgen -intstyle ise -f NPU.ut NPU.ncd 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc const.ucf -p xc3s200-pq208-4 NPU.ngc NPU.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o NPU_map.ncd NPU.ngd NPU.pcf 
+par -w -intstyle ise -ol high -t 1 NPU_map.ncd NPU.ncd NPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml NPU.twx NPU.ncd -o NPU.twr NPU.pcf -ucf const.ucf 
+bitgen -intstyle ise -f NPU.ut NPU.ncd 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc const.ucf -p xc3s200-pq208-4 NPU.ngc NPU.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o NPU_map.ncd NPU.ngd NPU.pcf 
+par -w -intstyle ise -ol high -t 1 NPU_map.ncd NPU.ncd NPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml NPU.twx NPU.ncd -o NPU.twr NPU.pcf -ucf const.ucf 
+bitgen -intstyle ise -f NPU.ut NPU.ncd 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc const.ucf -p xc3s200-pq208-4 NPU.ngc NPU.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o NPU_map.ncd NPU.ngd NPU.pcf 
+par -w -intstyle ise -ol high -t 1 NPU_map.ncd NPU.ncd NPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml NPU.twx NPU.ncd -o NPU.twr NPU.pcf -ucf const.ucf 
+bitgen -intstyle ise -f NPU.ut NPU.ncd 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc const.ucf -p xc3s200-pq208-4 NPU.ngc NPU.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o NPU_map.ncd NPU.ngd NPU.pcf 
+par -w -intstyle ise -ol high -t 1 NPU_map.ncd NPU.ncd NPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml NPU.twx NPU.ncd -o NPU.twr NPU.pcf -ucf const.ucf 
+bitgen -intstyle ise -f NPU.ut NPU.ncd 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc const.ucf -p xc3s200-pq208-4 NPU.ngc NPU.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o NPU_map.ncd NPU.ngd NPU.pcf 
+par -w -intstyle ise -ol high -t 1 NPU_map.ncd NPU.ncd NPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml NPU.twx NPU.ncd -o NPU.twr NPU.pcf -ucf const.ucf 
+bitgen -intstyle ise -f NPU.ut NPU.ncd 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc const.ucf -p xc3s200-pq208-4 NPU.ngc NPU.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o NPU_map.ncd NPU.ngd NPU.pcf 
+par -w -intstyle ise -ol high -t 1 NPU_map.ncd NPU.ncd NPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml NPU.twx NPU.ncd -o NPU.twr NPU.pcf -ucf const.ucf 
+bitgen -intstyle ise -f NPU.ut NPU.ncd 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc const.ucf -p xc3s200-pq208-4 NPU.ngc NPU.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o NPU_map.ncd NPU.ngd NPU.pcf 
+par -w -intstyle ise -ol high -t 1 NPU_map.ncd NPU.ncd NPU.pcf 
+bitgen -intstyle ise -f NPU.ut NPU.ncd 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc const.ucf -p xc3s200-pq208-4 NPU.ngc NPU.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o NPU_map.ncd NPU.ngd NPU.pcf 
+par -w -intstyle ise -ol high -t 1 NPU_map.ncd NPU.ncd NPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml NPU.twx NPU.ncd -o NPU.twr NPU.pcf -ucf const.ucf 
+bitgen -intstyle ise -f NPU.ut NPU.ncd 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc const.ucf -p xc3s200-pq208-4 NPU.ngc NPU.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o NPU_map.ncd NPU.ngd NPU.pcf 
+par -w -intstyle ise -ol high -t 1 NPU_map.ncd NPU.ncd NPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml NPU.twx NPU.ncd -o NPU.twr NPU.pcf -ucf const.ucf 
+bitgen -intstyle ise -f NPU.ut NPU.ncd 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc const.ucf -p xc3s200-pq208-4 NPU.ngc NPU.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o NPU_map.ncd NPU.ngd NPU.pcf 
+par -w -intstyle ise -ol high -t 1 NPU_map.ncd NPU.ncd NPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml NPU.twx NPU.ncd -o NPU.twr NPU.pcf -ucf const.ucf 
+bitgen -intstyle ise -f NPU.ut NPU.ncd 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc const.ucf -p xc3s200-pq208-4 NPU.ngc NPU.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o NPU_map.ncd NPU.ngd NPU.pcf 
+par -w -intstyle ise -ol high -t 1 NPU_map.ncd NPU.ncd NPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml NPU.twx NPU.ncd -o NPU.twr NPU.pcf -ucf const.ucf 
+bitgen -intstyle ise -f NPU.ut NPU.ncd 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc const.ucf -p xc3s200-pq208-4 NPU.ngc NPU.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o NPU_map.ncd NPU.ngd NPU.pcf 
+par -w -intstyle ise -ol high -t 1 NPU_map.ncd NPU.ncd NPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml NPU.twx NPU.ncd -o NPU.twr NPU.pcf -ucf const.ucf 
+bitgen -intstyle ise -f NPU.ut NPU.ncd 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc const.ucf -p xc3s200-pq208-4 NPU.ngc NPU.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o NPU_map.ncd NPU.ngd NPU.pcf 
+par -w -intstyle ise -ol high -t 1 NPU_map.ncd NPU.ncd NPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml NPU.twx NPU.ncd -o NPU.twr NPU.pcf -ucf const.ucf 
+bitgen -intstyle ise -f NPU.ut NPU.ncd 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc const.ucf -p xc3s200-pq208-4 NPU.ngc NPU.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o NPU_map.ncd NPU.ngd NPU.pcf 
+par -w -intstyle ise -ol high -t 1 NPU_map.ncd NPU.ncd NPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml NPU.twx NPU.ncd -o NPU.twr NPU.pcf -ucf const.ucf 
+bitgen -intstyle ise -f NPU.ut NPU.ncd 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc const.ucf -p xc3s200-pq208-4 NPU.ngc NPU.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o NPU_map.ncd NPU.ngd NPU.pcf 
+par -w -intstyle ise -ol high -t 1 NPU_map.ncd NPU.ncd NPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml NPU.twx NPU.ncd -o NPU.twr NPU.pcf -ucf const.ucf 
+bitgen -intstyle ise -f NPU.ut NPU.ncd 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc const.ucf -p xc3s200-pq208-4 NPU.ngc NPU.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o NPU_map.ncd NPU.ngd NPU.pcf 
+par -w -intstyle ise -ol high -t 1 NPU_map.ncd NPU.ncd NPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml NPU.twx NPU.ncd -o NPU.twr NPU.pcf -ucf const.ucf 
+bitgen -intstyle ise -f NPU.ut NPU.ncd 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc const.ucf -p xc3s200-pq208-4 NPU.ngc NPU.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o NPU_map.ncd NPU.ngd NPU.pcf 
+par -w -intstyle ise -ol high -t 1 NPU_map.ncd NPU.ncd NPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml NPU.twx NPU.ncd -o NPU.twr NPU.pcf -ucf const.ucf 
+bitgen -intstyle ise -f NPU.ut NPU.ncd 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc const.ucf -p xc3s200-pq208-4 NPU.ngc NPU.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o NPU_map.ncd NPU.ngd NPU.pcf 
+par -w -intstyle ise -ol high -t 1 NPU_map.ncd NPU.ncd NPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml NPU.twx NPU.ncd -o NPU.twr NPU.pcf -ucf const.ucf 
+bitgen -intstyle ise -f NPU.ut NPU.ncd 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc const.ucf -p xc3s200-pq208-4 NPU.ngc NPU.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o NPU_map.ncd NPU.ngd NPU.pcf 
+par -w -intstyle ise -ol high -t 1 NPU_map.ncd NPU.ncd NPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml NPU.twx NPU.ncd -o NPU.twr NPU.pcf -ucf const.ucf 
+bitgen -intstyle ise -f NPU.ut NPU.ncd 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc const.ucf -p xc3s200-pq208-4 NPU.ngc NPU.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o NPU_map.ncd NPU.ngd NPU.pcf 
+par -w -intstyle ise -ol high -t 1 NPU_map.ncd NPU.ncd NPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml NPU.twx NPU.ncd -o NPU.twr NPU.pcf -ucf const.ucf 
+bitgen -intstyle ise -f NPU.ut NPU.ncd 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc const.ucf -p xc3s200-pq208-4 NPU.ngc NPU.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o NPU_map.ncd NPU.ngd NPU.pcf 
+par -w -intstyle ise -ol high -t 1 NPU_map.ncd NPU.ncd NPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml NPU.twx NPU.ncd -o NPU.twr NPU.pcf -ucf const.ucf 
+bitgen -intstyle ise -f NPU.ut NPU.ncd 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc const.ucf -p xc3s200-pq208-4 NPU.ngc NPU.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o NPU_map.ncd NPU.ngd NPU.pcf 
+par -w -intstyle ise -ol high -t 1 NPU_map.ncd NPU.ncd NPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml NPU.twx NPU.ncd -o NPU.twr NPU.pcf -ucf const.ucf 
+bitgen -intstyle ise -f NPU.ut NPU.ncd 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc const.ucf -p xc3s200-pq208-4 NPU.ngc NPU.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o NPU_map.ncd NPU.ngd NPU.pcf 
+par -w -intstyle ise -ol high -t 1 NPU_map.ncd NPU.ncd NPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml NPU.twx NPU.ncd -o NPU.twr NPU.pcf -ucf const.ucf 
+bitgen -intstyle ise -f NPU.ut NPU.ncd 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc const.ucf -p xc3s200-pq208-4 NPU.ngc NPU.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o NPU_map.ncd NPU.ngd NPU.pcf 
+par -w -intstyle ise -ol high -t 1 NPU_map.ncd NPU.ncd NPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml NPU.twx NPU.ncd -o NPU.twr NPU.pcf -ucf const.ucf 
+bitgen -intstyle ise -f NPU.ut NPU.ncd 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc const.ucf -p xc3s200-pq208-4 NPU.ngc NPU.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o NPU_map.ncd NPU.ngd NPU.pcf 
+par -w -intstyle ise -ol high -t 1 NPU_map.ncd NPU.ncd NPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml NPU.twx NPU.ncd -o NPU.twr NPU.pcf -ucf const.ucf 
+bitgen -intstyle ise -f NPU.ut NPU.ncd 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc const.ucf -p xc3s200-pq208-4 NPU.ngc NPU.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o NPU_map.ncd NPU.ngd NPU.pcf 
+par -w -intstyle ise -ol high -t 1 NPU_map.ncd NPU.ncd NPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml NPU.twx NPU.ncd -o NPU.twr NPU.pcf -ucf const.ucf 
+bitgen -intstyle ise -f NPU.ut NPU.ncd 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc const.ucf -p xc3s200-pq208-4 NPU.ngc NPU.ngd  
+map -intstyle ise -p xc3s200-pq208-4 -cm area -ir off -pr off -c 100 -o NPU_map.ncd NPU.ngd NPU.pcf 
+par -w -intstyle ise -ol high -t 1 NPU_map.ncd NPU.ncd NPU.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml NPU.twx NPU.ncd -o NPU.twr NPU.pcf -ucf const.ucf 
+bitgen -intstyle ise -f NPU.ut NPU.ncd 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 
+xst -intstyle ise -ifn "C:/xilinx_project/Deep_Learning/NPU/NPU.xst" -ofn "C:/xilinx_project/Deep_Learning/NPU/NPU.syr" 

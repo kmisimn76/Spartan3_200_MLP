@@ -1,0 +1,47 @@
+Running: H:\xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/xilinx_project/Deep_Learning/NPU/NPU_tb_look_isim_beh.exe -prj C:/xilinx_project/Deep_Learning/NPU/NPU_tb_look_beh.prj work.NPU_tb_look work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/xilinx_project/Deep_Learning/NPU/Uart_Tx.v" into library work
+Analyzing Verilog file "C:/xilinx_project/Deep_Learning/NPU/uart_rx.v" into library work
+Analyzing Verilog file "C:/xilinx_project/Deep_Learning/NPU/sdp_bram.v" into library work
+Analyzing Verilog file "C:/xilinx_project/Deep_Learning/NPU/ddp_sram.v" into library work
+Analyzing Verilog file "C:/xilinx_project/Deep_Learning/NPU/WeightMemoryUnit.v" into library work
+Analyzing Verilog file "C:/xilinx_project/Deep_Learning/NPU/uart.v" into library work
+Analyzing Verilog file "C:/xilinx_project/Deep_Learning/NPU/TensorMemoryUnit.v" into library work
+Analyzing Verilog file "C:/xilinx_project/Deep_Learning/NPU/OutputDecoder.v" into library work
+Analyzing Verilog file "C:/xilinx_project/Deep_Learning/NPU/Multiplier.v" into library work
+Analyzing Verilog file "C:/xilinx_project/Deep_Learning/NPU/ModelMemoryUnit.v" into library work
+Analyzing Verilog file "C:/xilinx_project/Deep_Learning/NPU/controller.v" into library work
+WARNING:HDLCompiler:693 - "C:/xilinx_project/Deep_Learning/NPU/controller.v" Line 52: Parameter declaration becomes local in Controller with formal parameter declaration list
+WARNING:HDLCompiler:693 - "C:/xilinx_project/Deep_Learning/NPU/controller.v" Line 61: Parameter declaration becomes local in Controller with formal parameter declaration list
+Analyzing Verilog file "C:/xilinx_project/Deep_Learning/NPU/allocator.v" into library work
+WARNING:HDLCompiler:693 - "C:/xilinx_project/Deep_Learning/NPU/allocator.v" Line 64: Parameter declaration becomes local in Allocator with formal parameter declaration list
+WARNING:HDLCompiler:693 - "C:/xilinx_project/Deep_Learning/NPU/allocator.v" Line 65: Parameter declaration becomes local in Allocator with formal parameter declaration list
+Analyzing Verilog file "C:/xilinx_project/Deep_Learning/NPU/NPU.v" into library work
+Analyzing Verilog file "C:/xilinx_project/Deep_Learning/NPU/NPU_tb_look.v" into library work
+Analyzing Verilog file "H:/xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:267 - "C:/xilinx_project/Deep_Learning/NPU/NPU_tb_look.v" Line 79: Cannot find port multA on this module
+ERROR:HDLCompiler:25 - "C:/xilinx_project/Deep_Learning/NPU/NPU_tb_look.v" Line 83: Module <NPU> does not have a port named <valid>.
+ERROR:HDLCompiler:25 - "C:/xilinx_project/Deep_Learning/NPU/NPU_tb_look.v" Line 84: Module <NPU> does not have a port named <RxData>.
+ERROR:HDLCompiler:25 - "C:/xilinx_project/Deep_Learning/NPU/NPU_tb_look.v" Line 90: Module <NPU> does not have a port named <mm_ena>.
+ERROR:HDLCompiler:25 - "C:/xilinx_project/Deep_Learning/NPU/NPU_tb_look.v" Line 91: Module <NPU> does not have a port named <mm_enb>.
+ERROR:HDLCompiler:25 - "C:/xilinx_project/Deep_Learning/NPU/NPU_tb_look.v" Line 92: Module <NPU> does not have a port named <mm_wea>.
+ERROR:HDLCompiler:25 - "C:/xilinx_project/Deep_Learning/NPU/NPU_tb_look.v" Line 93: Module <NPU> does not have a port named <mm_addra>.
+ERROR:HDLCompiler:25 - "C:/xilinx_project/Deep_Learning/NPU/NPU_tb_look.v" Line 94: Module <NPU> does not have a port named <mm_addrb>.
+ERROR:HDLCompiler:25 - "C:/xilinx_project/Deep_Learning/NPU/NPU_tb_look.v" Line 95: Module <NPU> does not have a port named <mm_dla>.
+ERROR:HDLCompiler:25 - "C:/xilinx_project/Deep_Learning/NPU/NPU_tb_look.v" Line 96: Module <NPU> does not have a port named <mm_doa>.
+ERROR:HDLCompiler:25 - "C:/xilinx_project/Deep_Learning/NPU/NPU_tb_look.v" Line 97: Module <NPU> does not have a port named <mm_dob>.
+ERROR:HDLCompiler:25 - "C:/xilinx_project/Deep_Learning/NPU/NPU_tb_look.v" Line 98: Module <NPU> does not have a port named <wm_read>.
+ERROR:HDLCompiler:25 - "C:/xilinx_project/Deep_Learning/NPU/NPU_tb_look.v" Line 99: Module <NPU> does not have a port named <wm_line>.
+ERROR:HDLCompiler:25 - "C:/xilinx_project/Deep_Learning/NPU/NPU_tb_look.v" Line 100: Module <NPU> does not have a port named <wm_addra_0>.
+ERROR:HDLCompiler:25 - "C:/xilinx_project/Deep_Learning/NPU/NPU_tb_look.v" Line 101: Module <NPU> does not have a port named <wm_ena_o>.
+ERROR:HDLCompiler:25 - "C:/xilinx_project/Deep_Learning/NPU/NPU_tb_look.v" Line 102: Module <NPU> does not have a port named <wm_wea_o>.
+ERROR:HDLCompiler:25 - "C:/xilinx_project/Deep_Learning/NPU/NPU_tb_look.v" Line 103: Module <NPU> does not have a port named <wm_out_0>.
+ERROR:HDLCompiler:25 - "C:/xilinx_project/Deep_Learning/NPU/NPU_tb_look.v" Line 104: Module <NPU> does not have a port named <wm_out_1>.
+ERROR:HDLCompiler:25 - "C:/xilinx_project/Deep_Learning/NPU/NPU_tb_look.v" Line 105: Module <NPU> does not have a port named <multB_0>.
+ERROR:HDLCompiler:25 - "C:/xilinx_project/Deep_Learning/NPU/NPU_tb_look.v" Line 106: Module <NPU> does not have a port named <multB_1>.
+Sorry, too many errors..
+ERROR:Simulator:778 - Static elaboration of top level Verilog design unit(s) in library work failed
